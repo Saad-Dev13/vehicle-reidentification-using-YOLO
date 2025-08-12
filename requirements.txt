@@ -1,0 +1,25 @@
+# Core AI/ML Libraries
+ultralytics>=8.0.0           # YOLOv8 for object detection and tracking
+torch>=2.0.0                 # PyTorch deep learning framework
+torchvision>=0.15.0          # PyTorch computer vision library
+
+# Computer Vision
+opencv-python>=4.5.0         # OpenCV for image processing and computer vision
+scikit-image>=0.19.0         # Image processing library (HOG features)
+
+# Machine Learning & Analytics
+scikit-learn>=1.2.0          # Machine learning library (cosine similarity, metrics)
+numpy>=1.21.0                # Numerical computing foundation
+
+# OCR and Text Recognition (Optional - for license plate recognition)
+paddlepaddle>=2.4.0          # PaddlePaddle deep learning framework
+paddleocr>=2.6.0             # PaddlePaddle OCR for text recognition
+
+# User Interface & Progress
+tqdm>=4.64.0                 # Progress bars for long-running operations
+tabulate>=0.9.0              # Formatted table output for results
+
+# Standard Library Extensions (if needed for older Python versions)
+# sqlite3 is included in Python standard library
+# collections, datetime, json, os, sys, argparse, glob are all standard library
+# threading, time, queue are standard library
